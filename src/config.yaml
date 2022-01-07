@@ -1,8 +1,8 @@
 mqttinfo:
-  host: 1.117.208.15
+  host: 127.0.0.1
   port: 1883
-  username: moumou
-  password: 1234a
+  username: aaaaa
+  password: 12345
   sublist:
     - test
     - test2
