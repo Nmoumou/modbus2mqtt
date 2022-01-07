@@ -1,0 +1,32 @@
+mqttinfo:
+  host: 1.117.208.15
+  port: 1883
+  username: moumou
+  password: 1234a
+  sublist:
+    - test
+    - test2
+  qos: 0
+tcpmodbus:
+  enable: True
+  host: 127.0.0.1
+  port: 502
+  slaveid: 1
+  interval: 4 #读取频率 4秒/次
+  devices:
+      - register: holding   #要读取的寄存器 holding或 coil
+        pubtopic: dev1pub
+        maptable:
+          - startaddr: 0
+            datalen: 1
+            type: int
+            name: temperature
+          - startaddr: 3
+            datalen: 1
+            type: int
+            name: humidity
+          
+
+
+
+          
