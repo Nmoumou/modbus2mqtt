@@ -48,21 +48,21 @@ tcpmodbus:
 
       maptable:  #数据含义及地址映射表
 
-		- startaddr: 0  #起始地址
+	- startaddr: 0  #起始地址
 
           datalen: 1   #数据长度
 
-		  type: int   #数据类型
+          type: int   #数据类型
 
-		  name: temperature  #数据含义
+	  name: temperature  #数据含义
 
-		- startaddr: 3
+	- startaddr: 3
 
-		  datalen: 1
+	  datalen: 1
 
-	      type: int
+	  type: int
 
-		  name: humidity
+          name: humidity
 ```
 
 
