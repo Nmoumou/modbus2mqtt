@@ -9,11 +9,12 @@ require (
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
 
 require (
-	github.com/eclipse/paho.mqtt.golang v1.3.5
+	github.com/eclipse/paho.mqtt.golang v1.4.1
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/goburrow/modbus v0.1.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
