@@ -14,7 +14,7 @@ require (
 )
 
 require (
-	github.com/eclipse/paho.mqtt.golang v1.4.1
+	github.com/eclipse/paho.mqtt.golang v1.4.2
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/goburrow/modbus v0.1.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
